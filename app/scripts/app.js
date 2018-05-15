@@ -76,6 +76,6 @@ Instructions:
     .catch(function(e) {
       addSearchHeader('unknown');
       console.log(e);
-    })
+    });
   });
 })(document);
